@@ -1,0 +1,12 @@
+# Site settings
+title: AbaCore Capital Holdings, Inc.
+email: admin@abacorecapital.com
+description: > # this means to ignore newlines until "baseurl:"
+  AbaCore Capital Holdings, Inc.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://abacorecapital.com" # the base hostname & protocol for your site
+twitter_username: abacorecapital
+github_username:  abacorecapital
+
+# Build settings
+markdown: kramdown
