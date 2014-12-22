@@ -1,8 +1,11 @@
 # Site settings
 title: AbaCore Capital Holdings, Inc.
-email: admin@abacorecapital.com
+email: info@abacorecapital.com
+tel: 63-2-724-3759/724-5055/724-5055
+fax: 63-2-724-3290
 description: > # this means to ignore newlines until "baseurl:"
-  AbaCore Capital Holdings, Inc.
+  AbaCore Capital Holdings, Inc.</strong> is a publicly listed holding company.
+  Its shares are traded in the Philippine Stock Exchange (trading symbol:  ABA).
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://abacorecapital.com" # the base hostname & protocol for your site
 twitter_username: abacorecapital
@@ -10,3 +13,4 @@ github_username:  abacorecapital
 
 # Build settings
 markdown: kramdown
+excerpt_separator: <!--more-->
