@@ -147,6 +147,12 @@ body
 	width: 66%;
 }
 
+.dividerthreeall
+{
+	float: left;
+	width: 100%;
+}
+
 .floatleft
 {
 	float: left;
@@ -241,4 +247,42 @@ ul
 		font-variant: small-caps;
 	}
 
+#loadImg
+{
+  position:absolute;
+  z-index:999;
+}
 
+  #loadImg div
+  {
+    display:table-cell;
+    width:900px;height:860px;
+    background:#fff;
+    text-align:center;
+    vertical-align: middle;
+  }
+
+table.hovertable {
+	/*font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;*/
+	border-width: 1px;
+	/*border-color: #999999;*/
+	border-collapse: collapse;
+}
+table.hovertable th {
+	background-color: #CCCCCC;
+	border-width: 1px;
+	padding: 10px;
+	border-style: solid;
+	/*border-color: #a9c6c9;*/
+}
+table.hovertable tr {
+	background-color: #FAFAFA;
+}
+table.hovertable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	/*border-color: #a9c6c9;*/
+}
