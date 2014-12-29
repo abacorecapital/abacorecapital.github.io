@@ -2,7 +2,10 @@
 layout: corporate
 ---
 
-<h1>Company Fillings</h1>
+<h1><a href="http://abacorecapital.com/business_filings.html"> Old SEC Filings </a></h1>
+<br>
+<h1>Company Filings</h1>
+
 <table class="hovertable">
   <thead>
     <tr>
@@ -14,7 +17,7 @@ layout: corporate
     </tr>
   </thead>
   <tbody>
-{% for rc in site.data.PSE_fillings %}
+{% for rc in site.data.PSE_filings %}
   <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FAFAFA';">
     <td width="40%">{{ rc.Template }}</td>
     <td align="center" width="20%">{{ rc.Announce_date }}</td>
