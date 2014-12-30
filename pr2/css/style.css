@@ -193,10 +193,10 @@ hr
 	padding: 10px;
 }
 
-li
+/*li
 {
 	list-style: inside;
-}
+}*/
 
 .options
 {
@@ -227,10 +227,10 @@ small
 	color: #a0a0a0;
 }
 
-ul
+/*ul
 {
 	margin: 0 0 20px;
-}
+}*/
 
 #welcomeblurb
 {
@@ -251,6 +251,7 @@ ul
 {
   position:absolute;
   z-index:999;
+  top: 0px;
 }
 
   #loadImg div
