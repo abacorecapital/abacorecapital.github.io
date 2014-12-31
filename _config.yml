@@ -13,4 +13,3 @@ github_username:  abacorecapital
 
 # Build settings
 markdown: kramdown
-excerpt_separator: <!--more-->
