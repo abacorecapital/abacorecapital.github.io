@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   AbaCore Capital Holdings, Inc.</strong> is a publicly listed holding company.
   Its shares are traded in the Philippine Stock Exchange (trading symbol:  ABA).
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://abacorecapital.com" # the base hostname & protocol for your site
+url: "http://abacorecapital.github.io" # the base hostname & protocol for your site
 twitter_username: abacorecapital
 github_username:  abacorecapital
 
