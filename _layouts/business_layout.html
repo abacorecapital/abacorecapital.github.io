@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include nav.html %}
+
+  	<div id="wrap">
+    
+    	<div id="maxwidth">
+
+			{% include header.html %}
+
+ 		   <!--<div class="page-content">
+ 			   <div class="wrapper">
+ 				   {{ content }}
+ 			   </div>
+		   </div>-->
+			   
+			<div id="content">
+				<div class="content">
+	        		<div><img src="{{ "/images/business_top.gif" | prepend: site.baseurl }}" alt="" /></div>
+		            <div class="dividerthree">     
+                 
+						<div class="inside">     
+                   
+							<div class="options">     
+                     
+								<a href="business_leasing.html">Leasing <font style="text-transform: lowercase;">o</font>f Gaming Equipment &raquo; </a>     
+                       
+							</div>     
+                     
+							<div class="options">     
+                     
+								<a href="business_mining.html">Gold <font style="text-transform: lowercase;">a</font>nd Coal Mining &raquo; </a>     
+                       
+							</div>     
+                    
+							<div class="options">     
+                     
+								<a href="business_real.html">Real Estate &raquo; </a>     
+                       
+							</div>     
+                    
+							<div class="options">     
+                     
+								<a href="business_finance.html">Financial Services &raquo; </a>     
+                       
+							</div>
+							
+						</div><!--/.inside-->
+					</div><!--/.dividethree-->
+					
+					
+					<div class="dividerthreelong">
+
+	            		<div class="inside"> 
+
+							      {{ content }}
+   
+	             	 	</div> <!-- /.inside -->
+						
+					</div><!-- /.dividerthreelong -->
+					
+					<div class="clear"></div>  
+					
+				</div>
+				<!-- /.content -->
+			</div>
+			<!-- /#content -->
+
+ 	   		{% include footer.html %}
+			
+		</div>
+		<!-- /#maxwidth -->
+	</div>
+	<!-- /#wrap -->
+
+	{% include menu_js.html %}
+
+  </body>
+
+</html>

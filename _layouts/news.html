@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include nav.html %}
+
+  	<div id="wrap">
+    
+    	<div id="maxwidth">
+
+			{% include header.html %}
+
+ 		   <!--<div class="page-content">
+ 			   <div class="wrapper">
+ 				   {{ content }}
+ 			   </div>
+		   </div>-->
+			   
+			<div id="content">
+				<div class="content">
+	        		<div><img src="{{ "/images/home_top.gif" | prepend: site.baseurl }}" alt="" /></div>
+					
+					<div class="dividerthreelong">
+						
+	            		<div class="inside">    
+
+							{{ content }}
+   
+	             	 	</div>  <!-- /.inside -->
+						
+					</div>
+					<!-- /.dividerthreelong -->
+					
+					<div class="clear"></div>  
+					
+				</div>
+				<!-- /.content -->
+			</div>
+			<!-- /#content -->
+
+ 	   		{% include footer.html %}
+			
+		</div>
+		<!-- /#maxwidth -->
+	</div>
+	<!-- /#wrap -->
+
+	{% include menu_js.html %}
+
+  </body>
+
+</html>
