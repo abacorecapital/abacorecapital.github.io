@@ -6,7 +6,6 @@ Board of Directors
 ==================
 - Hermilando I. Mandanas
 - Jose V. Romero, Jr.			
-- Manuel A. De Leon
 - Calixto Y. Laureano
 - Ricardo C. Leong
 - Martha R. Horrigan
