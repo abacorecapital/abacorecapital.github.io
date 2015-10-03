@@ -12,7 +12,7 @@ Following is the current composition of these committees:
 NOMINATION COMMITTEE
 ====
 - Jose V. Romero, Jr.			-  Chairman
-- Joseph Delano M. Bernardo		-  Member (Indep. Director)
+- Raul B. De Mesa 		-  Member (Indep. Director)
 - Leonardo S. Gayao				-  Member	
 - Joaquin E. San Diego			-  Non-voting Member
 
@@ -26,7 +26,7 @@ AUDIT COMMITTEE
 
 COMPENSATION AND REMUNERATION COMMITTEE
 ====
-- Manuel A. De Leon			-  Chairman
+- Arturo V. Magtibay			-  Acting Chairman
 - Manuel A.J. Teehankee			-  Member (Indep. Director)
-- Arturo V. Magtibay 			-  Member
+
 
