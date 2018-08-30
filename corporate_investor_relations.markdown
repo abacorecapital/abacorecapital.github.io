@@ -9,11 +9,11 @@ The company’s investor relations program has for its purpose that of providing
 
 The company currently has a simple investor relations program whereby internal and external communications are centralized in the Office of the Corporate Secretary who concurrently serves as Investor Relations Officer.  Investor inquiries are referred to the latter.  Major company announcements are drafted by the Investor Relations Officer and reviewed by the Chairman and the President.  Announcements with respect to Board meetings are also previously discussed with the Board of Directors in the course of such meetings.
 
-The company’s Investor Relations Officer is Atty. Joaquin E. San Diego.  His contact information are as follows:
+The company’s Investor Relations Officer is Atty. Vicente Rafael L. Rosales.  His contact information are as follows:
 
-- Telephone      (02) 7245055
-- Fax  (02) 7243290
-- Mobile   09175182333
-- Email    j.sandiego@abacusconsolidated.com; sandiego.jack@gmail.com
+- Telephone : +63-2-724-3759
+- Tel. Fax : +63-2-724-3290
+- Mobile : +63-917-537-2080
+- Email : vicentelrosales@gmail.com
 
- The company’s policies with respect to investor relations are reviewed on a yearly basis.
+The company’s policies with respect to investor relations are reviewed on a yearly basis.
