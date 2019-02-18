@@ -5,4 +5,7 @@ layout: corporate
 Other Company Policies
 ====
 
-The company’s Conflict of Interest policy can be <a href="https://docs.google.com/a/abacusconsolidated.com/file/d/0B19lvllezMF1LUhWRWs5cE1aTUU/edit" target="_new">viewed here</a>.  The company’s whistle –blowing policy is still being reviewed and has not been approved by the Board. The company shall post a copy of the policy and other policies such as insider trading policy, related party transactions policy and policy on employee health, welfare and safety after they shall have been approved by the Board.
+- <a href="https://docs.google.com/a/abacusconsolidated.com/file/d/0B19lvllezMF1LUhWRWs5cE1aTUU/edit" target="_new">Conflict of Interest Policy</a>
+- <a href="https://docs.google.com/a/abacusconsolidated.com/file/d/1mjxmZiwweSuxpcKWOp9xG5UpA2AXJJrx/edit" target="_new">Whistle-Blower Policy</a>
+- <a href="https://docs.google.com/a/abacusconsolidated.com/file/d/1Jun6HfF6nLeM0O_CvF0HkN60mhMtF81m/edit" target="_new">Related Party Transactions Policy and Guidelines</a>
+- <a href="https://docs.google.com/a/abacusconsolidated.com/file/d/1IO6ReftuozcB0kL08bevlGtktai_wzJn/edit" target="_new">Insider Trading Policy</a>
