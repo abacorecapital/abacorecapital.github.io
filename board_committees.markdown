@@ -2,6 +2,11 @@
 layout: corporate
 ---
 
+Notice to the Public
+====
+The nomination committee of Abacore Capital Holdings, Inc. is opening for nomination Directors of the Board of the company for the years 2019-2020. The nomination period will be open from April 4-12 2019. Interested parties may send their nominations to 28 N. Domingo St. New Manila Quezon City.
+
+
 Board Committees for 2018-19
 ====
 
