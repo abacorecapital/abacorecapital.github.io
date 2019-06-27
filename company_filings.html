@@ -115,6 +115,39 @@ layout: corporate
   </tbody>
 </table>
 
+<h1>Public Ownership Report</h1>
+<table class="hovertable">
+  <thead>
+    <tr>
+      <th>Template Name</th>
+      <th>Announce Date and Time</th>
+      <th>PSE Form Number</th>
+      <th>Report or Circular Number</th>
+      <th>Attachments</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for rc in site.data.Public_ownership_report %}
+  <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FAFAFA';">
+    <td width="40%">{{ rc.Template }}</td>
+    <td align="center" width="20%">{{ rc.Announce_date }}</td>
+    <td align="center" width="15%">{{ rc.PSE_Form_No }}</td>
+    <td align="center">{{ rc.RC_No }}</td>
+    <td align="center">
+    {% if rc.Files != null %}
+       {% assign links = rc.Files | split:"," %}
+      {% for link in links %}
+        <a href="https://drive.google.com/file/d/{{ link }}/view" target="_new">Link{{ forloop.index }}</a> <br>
+      {% endfor %}
+    {% else %}
+      -
+    {% endif %}
+    </td>
+  </tr>
+{% endfor %}
+  </tbody>
+</table>
+
 <h1>Company Filings</h1>
 <table class="hovertable">
   <thead>
