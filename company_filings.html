@@ -47,7 +47,39 @@ layout: corporate
 	<li><a href="https://drive.google.com/file/d/0B19lvllezMF1LUVxQVJ4akVYZWM/view" target="_new">Amended Articles of Incorporation</a></li>
 	<li><a href="https://drive.google.com/file/d/0B19lvllezMF1V0tmLTh6b05ERHM/view" target="_new">Amended By-Laws</a></li>
 </ul>
+<table class="hovertable">
+  <thead>
+    <tr>
+      <th>Template Name</th>
+      <th>Announce Date and Time</th>
+      <th>PSE Form Number</th>
+      <th>Report or Circular Number</th>
+      <th>Attachments</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for rc in site.data.Amendments_to_aoi %}
+  <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FAFAFA';">
+    <td width="40%">{{ rc.Template }}</td>
+    <td align="center" width="20%">{{ rc.Announce_date }}</td>
+    <td align="center" width="15%">{{ rc.PSE_Form_No }}</td>
+    <td align="center">{{ rc.RC_No }}</td>
+    <td align="center">
+    {% if rc.Files != null %}
+       {% assign links = rc.Files | split:"," %}
+      {% for link in links %}
+        <a href="https://drive.google.com/file/d/{{ link }}/view" target="_new">Link{{ forloop.index }}</a> <br>
+      {% endfor %}
+    {% else %}
+      -
+    {% endif %}
+    </td>
+  </tr>
+{% endfor %}
+  </tbody>
+</table>
 <br>
+
 
 <h1>Quarterly Reports</h1>
 <table class="hovertable">
