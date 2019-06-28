@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   
-  {% include toc.html html=content %}
   {% include head.html %}
 
   <body>
@@ -13,12 +12,6 @@
     	<div id="maxwidth">
 
 			{% include header.html %}
-
- 		   <!--<div class="page-content">
- 			   <div class="wrapper">
- 				   {{ content }}
- 			   </div>
-		   </div>-->
 			   
 			<div id="content">
 				<div class="content">
@@ -27,6 +20,8 @@
 					<!-- front_left_nav include was here -->
 					
 					<div class="dividerthreeall">
+						
+				{% include toc.html html=content %}
 						
 	            		<div class="inside">           
 
